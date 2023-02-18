@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Casio Calculator</title>
+        <link rel="stylesheet" type="text/css" href="Calculator_2.css" >
+    </head>
+    <body>
+        <script src="Calculator_2.js"></script>
+        <div id="container" style="width:402px; height: 419px; border:3px; border-style: solid;">
+            <div id="box" style="border:2px; border-style: solid; height:70px; margin:2px"> 
+                   <h2 id="display"></h2>
+            </div>
+            <div id="row-1" style="margin-left: 3px;">
+                <button class="num-1" value="1" onclick="put1()">1</button>
+                <button class="num-1"value="2" onclick="put2()">2</button>
+                <button class="num-1"value="3" onclick="put3()">3</button>
+                <button class="num-1" onclick="Add()">+</button>
+            </div>
+            <div id="row-2" style="margin-left: 3px;">
+                <button class="num-1" value="4" onclick="put4()">4</button>
+                <button class="num-1" value="5" onclick="put5()">5</button>
+                <button class="num-1"value="6" onclick="put6()">6</button>
+                <button class="num-1" onclick="Subtract()">-</button>
+            </div>
+            <div id="row-3" style="margin-left: 3px;">
+                <button class="num-1"value="7" onclick="put7()">7</button>
+                <button class="num-1"value="8" onclick="put8()">8</button>
+                <button class="num-1"value="9" onclick="put9()">9</button>
+                <button class="num-1" onclick="Multiply()">*</button>
+            </div>
+            <div id="row-4" style="margin-left: 3px;">
+                <button class="num-1"value="0" onclick="put0()">0</button>
+                <button class="num-1" onclick="Answer()">=</button>
+                <button class="num-1"onclick="Reset()">Reset</button>
+                <button class="num-1" onclick="Divide()">/</button>
+            </div>
+        </div>
+    </body>
+</html>

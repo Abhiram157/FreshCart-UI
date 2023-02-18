@@ -1,0 +1,17 @@
+#row-1, #row-2, #row-3, #row-4{
+    margin-top: 5px;
+}
+.num-1{
+    height:80px;
+    width: 96px;
+    font-size: x-large;
+}
+#container{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#display{
+    text-align: left;
+    font-size:xx-large;
+    font-weight: 550;
+}
