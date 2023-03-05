@@ -1,0 +1,60 @@
+table, th, td{
+    border: 2px solid rgb(255,16,240);
+    border-collapse:collapse ;
+}
+td{
+    padding:15px;
+    font-size:larger;
+    text-align: center;
+    color:rgb(57,255,20);
+}
+th{
+    font-size: larger;
+    padding:15px;
+    font-weight: 550;
+    color:#00FFFF;
+    text-align: center;
+}
+.education{
+    display:flex;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+    color:#FFFF33;
+}
+.edu-text,.exp-text{
+    margin-left: 30px;
+}
+.tech,.soft{
+    font-size: x-large;
+    margin-left:30px;
+}
+.soft{
+    margin-left:160px;
+}
+.skill-align{
+    display:flex;
+    flex:1;
+    padding: 10px;
+    margin-left: 60px;
+    justify-content: center;
+
+}
+.s-align{
+    display:flex;
+    justify-content: center;
+    padding-left:30px;
+    color:#FFFF33;
+    
+}
+.skill-text{
+    margin-left:90px;
+}
+.exp-list{
+    font-size: x-large;
+    margin-left: 30px;
+}
+.heading, .edu-text,.exp-text,.skill-text{
+    color:#FFFF33;
+}
